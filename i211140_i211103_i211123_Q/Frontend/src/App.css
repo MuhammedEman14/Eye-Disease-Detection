@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgb(23, 21, 21);
+  color: white;
+  padding: 20px;
+}
+
+.upload-container {
+  margin-top: 50px;
+}
+
+.upload-container input[type='file'] {
+  display: block;
+  margin: 20px auto;
+}
+
+.upload-container img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.upload-btn {
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-btn:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.cancel-button {
+  background-color: #f44336; /* Red */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.upload-button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+.cancel-button:hover {
+  background-color: #d32f2f; /* Darker red */
+}
+.image-preview {
+  margin-top: 20px;
+  max-width: 600px; /* Specify the maximum width of the image container */
+  margin: 0 auto; /* Center the image container */
+}
+
+.image-preview img {
+  max-width: 100%; /* Make sure the image doesn't exceed the container's width */
+}
+.prediction-result {
+  margin-top: 20px;
+}
+
+.prediction-result h2 {
+  margin-bottom: 10px;
+}
+
+.prediction-result p {
+  font-size: 18px;
+  line-height: 1.5;
+}
